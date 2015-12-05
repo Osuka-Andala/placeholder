@@ -154,18 +154,18 @@
 	------------------------------------------------------ */
 	var latitude = 1.2833,
 		 longitude = 36.8167,
-		 map_zoom = 15,
+		 map_zoom = 8,
 		 main_color = '#d8ac00',
 		 saturation_value= -30,
 		 brightness_value= 5,
 		 winWidth = $(window).width();
 
    // marker url
-	if ( winWidth > 480 ) {
-		marker_url = 'images/icon-location-b.png';
-   } else {
-      marker_url = 'images/icon-location.png';
-   }
+	// if ( winWidth > 480 ) {
+	// 	marker_url = 'images/icon-location-b.png';
+  //  } else {
+  //     marker_url = 'images/icon-location.png';
+  //  }
 
 	// map style
 	var style = [
