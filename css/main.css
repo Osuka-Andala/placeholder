@@ -938,7 +938,7 @@ main .site-header .logo a {
 
 	.modal-toggles li a::before {
 		content: none;
-		postion: static;
+		position: static;
 	}
 
 }
